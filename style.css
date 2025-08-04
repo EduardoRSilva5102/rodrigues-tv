@@ -1,0 +1,192 @@
+body {
+    background: linear-gradient(to bottom, #141414 40%, #0a0d22 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    background-color: #141414;
+    padding: 20px;
+    width: 100%;
+}
+
+main {
+    padding-top: 90px;
+}
+
+.margem {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.logoG {
+    width: 190px;
+}
+
+.tableFilmes {
+    width: 100%;
+    border-spacing: 40px;
+}
+
+.Título th {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    padding: 20px 0 10px;
+}
+
+.tdFilmes {
+    width: 250px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.tdFilmes h4 {
+    font-size: larger;
+    text-align: left;
+    margin: 4px;
+}
+
+.info {
+    display: none;
+    background-color: #313131;
+    color: white;
+    font-size: 13px;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.tdFilmes:hover .info {
+    display: block;
+}
+
+a {
+    font-size: large;
+    color: black;
+    background-color: #E2B616;
+    border-radius: 2px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.bMenu {
+    color: white;
+    text-decoration: none;
+    background-color: #141414;
+    margin-right: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+footer {
+    color: rgb(118, 118, 118);
+    background-color: #141414;
+    text-align: center;
+    padding: 30px;
+}
+
+.imagem {
+    display: block;
+    width: 100%;
+    height: 375px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.imagem:hover {
+    transform: scale(1.05);
+}
+
+.imagem1 {
+    background-image: url("Assets/Filmes/filme1/img13.jpg");
+}
+
+.imagem1:hover {
+    background-image: url("Assets/Filmes/filme1/img11.jpg");
+}
+
+.imagem2 {
+    background-image: url("Assets/Filmes/filme2/img10.jpg");
+}
+
+.imagem2:hover {
+    background-image: url("Assets/Filmes/filme2/img12.jpg");
+}
+
+.imagem3 {
+    background-image: url("Assets/Filmes/filme3/img21.jpg");
+}
+
+.imagem3:hover {
+    background-image: url("Assets/Filmes/filme3/img17.jpg");
+}
+
+.imagem4 {
+    background-image: url("Assets/Filmes/filme4/img19.jpg");
+}
+
+.imagem4:hover {
+    background-image: url("Assets/Filmes/filme4/img17.jpg");
+}
+
+.imagem5 {
+    background-image: url("Assets/Filmes/filme5/img17.jpg");
+}
+
+.imagem5:hover {
+    background-image: url("Assets/Filmes/filme5/img12.jpg");
+}
+
+.imagem6 {
+    background-image: url("Assets/Filmes/filme6/img15.jpg");
+}
+
+.imagem6:hover {
+    background-image: url("Assets/Filmes/filme6/img12.jpg");
+}
+
+.imagem7 {
+    background-image: url("Assets/Filmes/filme7/img12.jpg");
+}
+
+.imagem7:hover {
+    background-image: url("Assets/Filmes/filme7/img11.jpg");
+}
+
+.imagem8 {
+    background-image: url("Assets/Filmes/filme8/img19.png");
+}
+
+.imagem8:hover {
+    background-image: url("Assets/Filmes/filme8/img12.jpg");
+}
+
+.imagem9 {
+    background-image: url("Assets/Filmes/filme9/img19.jpg");
+}
+
+.imagem9:hover {
+    background-image: url("Assets/Filmes/filme9/img11.jpg");
+}
+
+.imagem10 {
+    background-image: url("Assets/Filmes/filme10/img15.jpg");
+}
+
+.imagem10:hover {
+    background-image: url("Assets/Filmes/filme10/img17.jpg");
+}
