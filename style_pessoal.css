@@ -35,6 +35,21 @@ main {
     padding: 10px;
 }
 
+#outro-sobre {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+#sobre-botao {
+    text-align: center;
+    background-color: blue;
+    width: 70px;
+    padding: 10px;
+    border-radius: 3px;
+    border-style: dashed;
+}
+
 footer {
     background-color: black;
     margin-top: 20px;
