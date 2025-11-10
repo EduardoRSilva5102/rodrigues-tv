@@ -45,11 +45,11 @@ ul{
 }
 
 .imgFilme1 {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #141414 100%), url("../../Assets/Filmes/filme1/img17.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #141414 100%), url("../Assets/Filmes/filme1/img17.jpg");
 }
 
 .imgFilme2 {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #141414 100%), url("../../Assets/Filmes/filme6/img22.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #141414 100%), url("../Assets/Filmes/filme6/img22.jpg");
 }
 
 h1 {
