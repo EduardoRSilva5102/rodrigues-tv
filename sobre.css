@@ -93,6 +93,19 @@ p {
     font-weight: bold;
 }
 
+#outro-sobre {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+#sobre-botao {
+    text-align: center;
+    background-color: blue;
+    width: 70px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
 footer {
     color: rgb(118, 118, 118);
     background-color: #141414;
